@@ -1,6 +1,6 @@
 Name:           ocaml-cryptgps
 Version:        0.2.1
-Release:        %mkrel 1
+Release:        2
 Summary:        Cryptographic functions 
 License:        MIT/X11
 Group:          Development/Other
