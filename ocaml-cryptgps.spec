@@ -6,8 +6,8 @@ License:        MIT/X11
 Group:          Development/Other
 URL:            http://projects.camlcity.org/projects/cryptgps.html
 Source0:        http://download.camlcity.org/download/cryptgps-%{version}.tar.gz
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires:  ocaml-findlib
+BuildRequires:  ocaml
 
 %description
 This library implements the symmetric cryptographic algorithms Blowfish, DES,
@@ -57,4 +57,15 @@ rm -rf %{buildroot}
 %{_libdir}/ocaml/cryptgps/*.cmxa
 %{_libdir}/ocaml/cryptgps/*.cmx
 %{_libdir}/ocaml/cryptgps/*.mli
+
+
+
+%changelog
+* Wed May 09 2012 Crispin Boylan <crisb@mandriva.org> 0.2.1-2
++ Revision: 797771
+- Rebuild
+
+* Sat Aug 22 2009 Florent Monnier <blue_prawn@mandriva.org> 0.2.1-1mdv2011.0
++ Revision: 419689
+- import ocaml-cryptgps
 
