@@ -1,3 +1,5 @@
+%define debug_package          %{nil}
+
 Name:           ocaml-cryptgps
 Version:        0.2.1
 Release:        3
