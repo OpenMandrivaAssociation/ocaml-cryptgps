@@ -4,7 +4,7 @@
 Summary:	Cryptographic functions for OCaml
 Name:		ocaml-cryptgps
 Version:	0.2.1
-Release:	4
+Release:	5
 License:	MIT/X11
 Group:		Development/Other
 Url:		http://projects.camlcity.org/projects/cryptgps.html
