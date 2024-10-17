@@ -7,7 +7,7 @@ Version:	0.2.1
 Release:	5
 License:	MIT/X11
 Group:		Development/Other
-Url:		http://projects.camlcity.org/projects/cryptgps.html
+Url:		https://projects.camlcity.org/projects/cryptgps.html
 Source0:	http://download.camlcity.org/download/cryptgps-%{version}.tar.gz
 BuildRequires:	ocaml
 BuildRequires:	ocaml-findlib
